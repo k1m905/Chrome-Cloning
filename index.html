@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Project</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body> 
+        <div class="upper">
+            <form id="search-form" action="https://www.google.com/search" method="GET">
+                <h1 id="title">
+                    <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+                </h1>
+                <input id="search" name="q" type="text" placeholder="Search Google or type a URL">
+            </form>
+        </div>
+        <div class="quotes">
+            <span id="quote"></span> 
+            <span id="name"></span>
+        </div>
+        <div class="weather-info">
+            <span id="weather"></span>
+            <br>
+            <img id="icon">
+        </div>
+        <div class="todo-form">
+            <h2 id="h2">Todo List</h2>
+            <form id="todo">
+                <input id="todo-input" type="text" required placeholder="Things to do">
+            </form>
+            <ul id="todo-list"></ul>
+        </div>  
+        <script src="JS/title.js"></script>
+        <script src="JS/quotes.js"></script>
+        <script src="JS/background.js"></script>
+        <script src="JS/weather.js"></script>
+        <script src="JS/toDoList.js"></script>
+    </body>
+</html>

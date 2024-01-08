@@ -19,7 +19,7 @@ function writeElements(element){
     const li = document.createElement("li")
     const button = document.createElement("button")
 
-    button.innerText = "X"
+    button.innerText = "Done"
     button.classList.add("button")
 
     li.innerText = element.context

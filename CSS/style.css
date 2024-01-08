@@ -55,6 +55,7 @@ span:nth-child(5){
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 30%;
+    font-style: italic;
 }
 
 #quote{
@@ -79,6 +80,8 @@ span:nth-child(5){
     right: 1%;
     font-size: 18px;
     text-align: center;
+    opacity: 90%;
+    font-style: italic;
 }
 
 .background{
@@ -94,6 +97,7 @@ span:nth-child(5){
     top: 35%;
     left: 7.5%;
     transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 h2{
@@ -101,6 +105,7 @@ h2{
     margin-right: 15px;
     font-size: 25px;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 #todo-input{
@@ -121,9 +126,34 @@ h2{
     width: 500px;
     margin-top: 40px;
     margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .list{
     font-size: 25px;
     color: white;
+}
+
+.button{
+    margin-left: 20px;
+    width: 50px;
+    color: white;
+    background:transparent;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+    opacity: 90%;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+
+.button:hover{
+    box-shadow: inset 100px 0 0 0 red;
+    color: black;
+    border-radius: 4px;
+    opacity: 100%;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;          
 }
